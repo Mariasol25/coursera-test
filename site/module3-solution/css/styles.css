@@ -1,0 +1,96 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #EAD7D7;
+}
+
+#header-nav {
+	background-color: #412234;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand h1 {
+	color: #412234;
+}
+
+h2 {
+	font-size: 175%;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+h3 {
+	margin-top: 15px;
+	text-align: center;
+}
+
+p{
+	margin-top: 30px;
+	clear: right;
+	padding: 10px;
+	text-align: justify;
+}
+
+li {
+	text-align: center;
+}
+
+.row {
+	width: 100%;
+}
+
+section{
+	background-color: #6D466B;
+	border: 1px solid black;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	float: left;
+	position: relative;
+	padding: 10px;
+	overflow: hidden;
+	left: 15px;
+	right: 15px;
+	color: 	#FFFFFF;
+}
+
+/*medium device*/
+@media (min-width: 992px) {
+	.ld {
+		width: calc(33.333% - 20px); /* subtracts margin from column width */
+    	margin-left: 10px;
+    	margin-right: 10px;
+	}
+}
+
+/*small device*/
+@media (min-width: 768px) and (max-width: 991px) {
+	.md {
+		width: calc(50% - 50px);
+		margin-left: 25px;
+    	margin-right: 25px;
+	}
+	.md-third {
+		width: calc(100% - 50px);
+		margin-left: 25px;
+    	margin-right: 25px;
+	}
+
+}
+
+/*xsmall device */
+@media (max-width: 767px) {
+	.sd {
+		width: calc(100% - 60px);
+		margin-left: 30px;
+    	margin-right: 30px;
+	}
+
+	.navbarNav:active {
+		box-shadow: 0 1px 5px 1px #cccccc
+	}
+}
